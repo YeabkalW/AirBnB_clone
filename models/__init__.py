@@ -2,6 +2,6 @@
 
 from models.engine.file_storage import FileStorage
 
-print("storage reloading")
+
 storage = FileStorage()
 storage.reload()
